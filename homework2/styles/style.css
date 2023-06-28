@@ -1,6 +1,65 @@
+@import url(https://fonts.googleapis.com/css?family=Arimo:400,400italic|Playfair+Display+SC:400,700&subset=latin,cyrillic);
+
+h1 {
+    text-align: center;
+}
+
+body {
+    font-family: 'Arimo', sans-serif;
+    font-size: 14px;
+    line-height: 1.7;
+    width: 80%;
+ }
+
+
 img {
-    border: 1px solid #ddd;
-    border-radius: 4px;
     padding: 5px;
     width: 300px;
+    border: 1px solid #f1f1f1;
+}
+
+.container {
+    background-color: #f1f1f1;
+    display: inline-block;
+    width: 100%;
+}
+
+.spacer {
+    height: 3px;
+}
+
+.photo{
+    float: left;
+    padding: 20px;
+}
+
+.text {
+    width: 90%;
+    margin-top: 30px;
+}
+
+
+.tab {
+    display: inline-block;
+    width: 40px;
+}
+
+a {
+    color: #151414;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  a:hover {
+    color: #0056b3;
+    text-decoration: underline;
+  }
+
+  footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #f1f1f1;
+    padding: 20px;
+    text-align: center;
   }
